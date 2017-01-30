@@ -1,0 +1,197 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.9.2",
+    "uniqCompNum": 6,
+    "versionPublish": "3.11.1",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "back-to-top": "on",
+    "html_before": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>Search Box Example 2 - default placeholder text gets cleared on click</title>\r\n<meta name=\"ROBOTS\" content=\"NOINDEX, NOFOLLOW\" />\r\n<!-- Add jQuery to your website if you don't have it already -->\r\n<script type=\"text/javascript\" src=\"http://code.jquery.com/jquery-latest.min.js\"></script>\r\n<!-- JAVASCRIPT to clear search text when the field is clicked -->\r\n<script type=\"text/javascript\">\r\n$(function() {\r\n\t$(\"#tfq2b\").click(function() {\r\n\t\tif ($(\"#tfq2b\").val() == \"Search our website\"){\r\n\t\t\t$(\"#tfq2b\").val(\"\"); \r\n\t\t}\r\n\t});\r\n});\r\n</script>\r\n<!-- CSS styles for standard search box with placeholder text-->\r\n<style type=\"text/css\">\r\n\t#tfheader{\r\n\t\tbackground-color:#c3dfef;\r\n\t}\r\n\t#tfnewsearch{\r\n\t\tfloat:right;\r\n\t\tpadding:20px;\r\n\t}\r\n\t.tftextinput2{\r\n\t\tmargin: 0;\r\n\t\tpadding: 5px 15px;\r\n\t\tfont-family: Arial, Helvetica, sans-serif;\r\n\t\tfont-size:14px;\r\n\t\tcolor:#666;\r\n\t\tborder:1px solid #0076a3; border-right:0px;\r\n\t\tborder-top-left-radius: 5px 5px;\r\n\t\tborder-bottom-left-radius: 5px 5px;\r\n\t}\r\n\t.tfbutton2 {\r\n\t\tmargin: 0;\r\n\t\tpadding: 5px 7px;\r\n\t\tfont-family: Arial, Helvetica, sans-serif;\r\n\t\tfont-size:14px;\r\n\t\tfont-weight:bold;\r\n\t\toutline: none;\r\n\t\tcursor: pointer;\r\n\t\ttext-align: center;\r\n\t\ttext-decoration: none;\r\n\t\tcolor: #ffffff;\r\n\t\tborder: solid 1px #0076a3; border-right:0px;\r\n\t\tbackground: #0095cd;\r\n\t\tbackground: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));\r\n\t\tbackground: -moz-linear-gradient(top,  #00adee,  #0078a5);\r\n\t\tborder-top-right-radius: 5px 5px;\r\n\t\tborder-bottom-right-radius: 5px 5px;\r\n\t}\r\n\t.tfbutton2:hover {\r\n\t\ttext-decoration: none;\r\n\t\tbackground: #007ead;\r\n\t\tbackground: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));\r\n\t\tbackground: -moz-linear-gradient(top,  #0095cc,  #00678e);\r\n\t}\r\n\t/* Fixes submit button height problem in Firefox */\r\n\t.tfbutton2::-moz-focus-inner {\r\n\t  border: 0;\r\n\t}\r\n\t.tfclear{\r\n\t\tclear:both;\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\t<!-- HTML for SEARCH BAR -->\r\n\t<div id=\"tfheader\">\r\n\t\t<form id=\"tfnewsearch\" method=\"get\" action=\"http://www.google.com\">\r\n\t\t        <input type=\"text\" id=\"tfq2b\" class=\"tftextinput2\" name=\"q\" size=\"21\" maxlength=\"120\" value=\"Search our website\"><input type=\"submit\" value=\">\" class=\"tfbutton2\">\r\n\t\t</form>\r\n\t\t<div class=\"tfclear\"></div>\r\n\t</div>\r\n</body>\r\n</html>\r\n",
+    "headbody": "",
+    "botbody": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "deltapieditor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "deltapieditor",
+          "_anchor": "deltapieditor-5",
+          "_params": {
+            "_customHTML": "",
+            "_customCSS": "<!DOCTYPE html>\n<html>\n<head>\n<title>Search Box Example 1</title>\n<meta name=\"ROBOTS\" content=\"NOINDEX, NOFOLLOW\" />\n<!-- CSS styles for standard search box -->\n<style type=\"text/css\">\n\t#tfheader{\n\t\tbackground-color:#c3dfef;\n\t}\n\t#tfnewsearch{\n\t\tfloat:right;\n\t\tpadding:20px;\n\t}\n\t.tftextinput{\n\t\tmargin: 0;\n\t\tpadding: 5px 15px;\n\t\tfont-family: Arial, Helvetica, sans-serif;\n\t\tfont-size:14px;\n\t\tborder:1px solid #0076a3; border-right:0px;\n\t\tborder-top-left-radius: 5px 5px;\n\t\tborder-bottom-left-radius: 5px 5px;\n\t}\n\t.tfbutton {\n\t\tmargin: 0;\n\t\tpadding: 5px 15px;\n\t\tfont-family: Arial, Helvetica, sans-serif;\n\t\tfont-size:14px;\n\t\toutline: none;\n\t\tcursor: pointer;\n\t\ttext-align: center;\n\t\ttext-decoration: none;\n\t\tcolor: #ffffff;\n\t\tborder: solid 1px #0076a3; border-right:0px;\n\t\tbackground: #0095cd;\n\t\tbackground: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));\n\t\tbackground: -moz-linear-gradient(top,  #00adee,  #0078a5);\n\t\tborder-top-right-radius: 5px 5px;\n\t\tborder-bottom-right-radius: 5px 5px;\n\t}\n\t.tfbutton:hover {\n\t\ttext-decoration: none;\n\t\tbackground: #007ead;\n\t\tbackground: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));\n\t\tbackground: -moz-linear-gradient(top,  #0095cc,  #00678e);\n\t}\n\t/* Fixes submit button height problem in Firefox */\n\t.tfbutton::-moz-focus-inner {\n\t  border: 0;\n\t}\n\t.tfclear{\n\t\tclear:both;\n\t}\n</style>\n</head>\n<body>\n\t<!-- HTML for SEARCH BAR -->\n\t<div id=\"tfheader\">\n\t\t<form id=\"tfnewsearch\" method=\"get\" action=\"#\">\n\t\t        <input type=\"text\" class=\"tftextinput\" name=\"q\" size=\"21\" maxlength=\"120\"><input type=\"submit\" value=\"search\" class=\"tfbutton\">\n\t\t</form>\n\t<div class=\"tfclear\"></div>\n\t</div>\n</body>\n</html>\n",
+            "ExtEdit": false
+          },
+          "_customCSS": "<!DOCTYPE html>\n<html>\n<head>\n<title>Search Box Example 1</title>\n<meta name=\"ROBOTS\" content=\"NOINDEX, NOFOLLOW\" />\n<!-- CSS styles for standard search box -->\n<style type=\"text/css\">\n\t#tfheader{\n\t\tbackground-color:#c3dfef;\n\t}\n\t#tfnewsearch{\n\t\tfloat:right;\n\t\tpadding:20px;\n\t}\n\t.tftextinput{\n\t\tmargin: 0;\n\t\tpadding: 5px 15px;\n\t\tfont-family: Arial, Helvetica, sans-serif;\n\t\tfont-size:14px;\n\t\tborder:1px solid #0076a3; border-right:0px;\n\t\tborder-top-left-radius: 5px 5px;\n\t\tborder-bottom-left-radius: 5px 5px;\n\t}\n\t.tfbutton {\n\t\tmargin: 0;\n\t\tpadding: 5px 15px;\n\t\tfont-family: Arial, Helvetica, sans-serif;\n\t\tfont-size:14px;\n\t\toutline: none;\n\t\tcursor: pointer;\n\t\ttext-align: center;\n\t\ttext-decoration: none;\n\t\tcolor: #ffffff;\n\t\tborder: solid 1px #0076a3; border-right:0px;\n\t\tbackground: #0095cd;\n\t\tbackground: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));\n\t\tbackground: -moz-linear-gradient(top,  #00adee,  #0078a5);\n\t\tborder-top-right-radius: 5px 5px;\n\t\tborder-bottom-right-radius: 5px 5px;\n\t}\n\t.tfbutton:hover {\n\t\ttext-decoration: none;\n\t\tbackground: #007ead;\n\t\tbackground: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));\n\t\tbackground: -moz-linear-gradient(top,  #0095cc,  #00678e);\n\t}\n\t/* Fixes submit button height problem in Firefox */\n\t.tfbutton::-moz-focus-inner {\n\t  border: 0;\n\t}\n\t.tfclear{\n\t\tclear:both;\n\t}\n</style>\n</head>\n<body>\n\t<!-- HTML for SEARCH BAR -->\n\t<div id=\"tfheader\">\n\t\t<form id=\"tfnewsearch\" method=\"get\" action=\"#\">\n\t\t        <input type=\"text\" class=\"tftextinput\" name=\"q\" size=\"21\" maxlength=\"120\"><input type=\"submit\" value=\"search\" class=\"tfbutton\">\n\t\t</form>\n\t<div class=\"tfclear\"></div>\n\t</div>\n</body>\n</html>\n",
+          "_customHTML": "",
+          "tinyeditor": ""
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\" | http://donatenow.wc.lt/?donate=christophermbuthia@gmail.com&amp;item-name=CAMPAIGN&amp;amount=100&amp;method=PayPal\" target=\"_blank\">DONATE</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        }
+      ]
+    }
+  }
+}
