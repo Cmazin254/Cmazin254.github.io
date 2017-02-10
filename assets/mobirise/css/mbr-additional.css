@@ -86,7 +86,7 @@ h6,
   font-family: 'Lora', serif;
 }
 .bg-primary {
-  background-color: #c0a375 !important;
+  background-color: #faaf40 !important;
 }
 .bg-success {
   background-color: #f3c649 !important;
@@ -101,8 +101,8 @@ h6,
   background-color: #f28281 !important;
 }
 .btn-primary {
-  background-color: #c0a375;
-  border-color: #c0a375;
+  background-color: #faaf40;
+  border-color: #faaf40;
   color: #ffffff;
 }
 .btn-primary:hover,
@@ -111,14 +111,14 @@ h6,
 .btn-primary:active,
 .btn-primary.active {
   color: #ffffff;
-  background-color: #a07e49;
-  border-color: #a07e49;
+  background-color: #e78d06;
+  border-color: #e78d06;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #a07e49 !important;
-  border-color: #a07e49 !important;
+  background-color: #e78d06 !important;
+  border-color: #e78d06 !important;
 }
 .btn-secondary {
   background-color: #bfcecb;
@@ -222,8 +222,8 @@ h6,
 }
 .btn-primary-outline {
   background: none;
-  border-color: #8e7041;
-  color: #8e7041;
+  border-color: #cf7d05;
+  color: #cf7d05;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
@@ -231,14 +231,14 @@ h6,
 .btn-primary-outline:active,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #c0a375;
-  border-color: #c0a375;
+  background-color: #faaf40;
+  border-color: #faaf40;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #c0a375 !important;
-  border-color: #c0a375 !important;
+  background-color: #faaf40 !important;
+  border-color: #faaf40 !important;
 }
 .btn-secondary-outline {
   background: none;
@@ -341,7 +341,7 @@ h6,
   border-color: #f28281 !important;
 }
 .text-primary {
-  color: #c0a375 !important;
+  color: #faaf40 !important;
 }
 .text-success {
   color: #f3c649 !important;
@@ -368,36 +368,36 @@ h6,
   background-color: #f28281;
 }
 .btn-social {
-  border-color: #c0a375;
+  border-color: #faaf40;
 }
 .btn-social:hover {
-  background: #c0a375;
+  background: #faaf40;
 }
 .mbr-company .list-group-item.active .list-group-text {
-  color: #c0a375;
+  color: #faaf40;
 }
 .mbr-footer p a,
 .mbr-footer ul a {
-  color: #c0a375;
+  color: #faaf40;
 }
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #c0a375;
+  background: #faaf40;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #c0a375;
+  color: #faaf40;
 }
 .lead a,
 .lead a:hover {
-  color: #c0a375;
+  color: #faaf40;
 }
 .lead blockquote {
-  border-color: #c0a375;
+  border-color: #faaf40;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #e8ddcd;
+  color: #ffffff;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -417,7 +417,7 @@ h6,
 }
 .mbr-small-footer a,
 .mbr-gallery-filter li:hover {
-  color: #c0a375;
+  color: #faaf40;
 }
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -446,7 +446,7 @@ h6,
 #menu-0 .dropdown-item:hover,
 #menu-0 .link:focus,
 #menu-0 .dropdown-item:focus {
-  color: #c0a375;
+  color: #faaf40;
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-menu {
@@ -473,7 +473,7 @@ h6,
 }
 #menu-0 .bg-color.transparent.opened .link:hover,
 #menu-0 .bg-color.transparent.opened .link:focus {
-  color: #c0a375;
+  color: #faaf40;
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-item[aria-expanded="true"] {
@@ -503,6 +503,12 @@ h6,
 #msg-box8-9 .mbr-section-title,
 #msg-box8-9 p {
   color: #fff;
+}
+#testimonials4-f .mbr-section-title {
+  color: #f28281;
+}
+#testimonials4-f .card-footer > div {
+  color: #f3c649;
 }
 #form2-j .mbr-section-title {
   color: #fff;
@@ -543,7 +549,7 @@ h6,
 #menu-a .dropdown-item:hover,
 #menu-a .link:focus,
 #menu-a .dropdown-item:focus {
-  color: #c0a375;
+  color: #faaf40;
 }
 #menu-a .link[aria-expanded="true"],
 #menu-a .dropdown-menu {
@@ -570,7 +576,7 @@ h6,
 }
 #menu-a .bg-color.transparent.opened .link:hover,
 #menu-a .bg-color.transparent.opened .link:focus {
-  color: #c0a375;
+  color: #faaf40;
 }
 #menu-a .link[aria-expanded="true"],
 #menu-a .dropdown-item[aria-expanded="true"] {
